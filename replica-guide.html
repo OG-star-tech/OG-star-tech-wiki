@@ -1,0 +1,400 @@
+<!--
+title: 复刻指南
+description: 
+published: true
+date: 2025-10-18T14:22:26.222Z
+tags: 
+editor: ckeditor
+dateCreated: 2025-09-13T16:30:08.740Z
+-->
+
+<h1>前期准备</h1>
+<ul>
+  <li>您需要有一定动手能力，组装和测试机械零件</li>
+  <li>您需要有基本软件知识，完成烧录工作</li>
+  <li>您需要按下方材料清单购买所有材料，总价在500元内</li>
+  <li>您需要有一台3D打印机或通过代打等方式获取3D打印零件<ul>
+      <li>推荐下载链接（已经配置摆放好了，但是只能用拓竹切片软件）：<a href="https://pan.baidu.com/s/1arHrrzlvskoo9K62B3_e4w?pwd=ogst ">https://pan.baidu.com/s/1arHrrzlvskoo9K62B3_e4w?pwd=ogst </a>提取码: ogst</li>
+      <li>MakerWorld下载地址（下载STL文件自己处理）：<a href="https://makerworld.com/zh/models/36715-og-star-tracker-v2">https://makerworld.com/zh/models/36715-og-star-tracker-v2</a></li>
+    </ul>
+  </li>
+</ul>
+<blockquote>
+  <p>注意：部分构件含有刻度、指示等图案，需使用多色打印，或后期上色（不推荐）</p>
+</blockquote>
+<ul>
+  <li>一些趁手的工具和宽敞的桌子，以及一杯咖啡☕️</li>
+</ul>
+<blockquote>
+  <p>DIY 操作有危险性，部分步骤可能导致受伤、致残，由此产生的任何损失，欧极星社区不承担责任。</p>
+</blockquote>
+<blockquote>
+  <p>赤道仪是高精度设备，细小的组装失误可能会导致较大精度误差。</p>
+</blockquote>
+<blockquote>
+  <p>本项目欢迎爱好者开展个人复刻实践，但<mark class="pen-red"><strong>严禁任何形式的商业使用</strong></mark>。目前，欧极星社区已就所有数字资产在中国完成专利、软件著作权、商标等知识产权的申请与登记保护；针对任何未经授权的商业侵权行为，我们将依法严肃追究责任。</p>
+</blockquote>
+<h1>前置提要</h1>
+<h2>学会看懂复刻指南：</h2>
+<p><strong>想要复刻OGS赤道仪需要准备以下几类材料：</strong></p>
+<ul class="todo-list">
+  <li><label class="todo-list__label"><input type="checkbox" disabled="disabled"><span class="todo-list__label__description">紧固件（螺丝螺母等）</span></label></li>
+  <li><label class="todo-list__label"><input type="checkbox" disabled="disabled"><span class="todo-list__label__description">运动件（齿轮、轴承等）</span></label></li>
+  <li><label class="todo-list__label"><input type="checkbox" disabled="disabled"><span class="todo-list__label__description">电子件（步进电机、控制板等）</span></label></li>
+  <li><label class="todo-list__label"><input type="checkbox" disabled="disabled"><span class="todo-list__label__description">3D打印零件（使用3D打印工艺制造的赤道仪主体结构）</span></label></li>
+  <li><label class="todo-list__label"><input type="checkbox" disabled="disabled"><span class="todo-list__label__description">杂项（其他配件，如胶水、扳手等）</span></label></li>
+  <li><label class="todo-list__label"><input type="checkbox" disabled="disabled"><span class="todo-list__label__description">固件、烧录工具（需要烧录的固件和烧录程序）</span></label></li>
+</ul>
+<p>这些材料的详细清单就在下方表格中，你只需要按照清单采购即可。</p>
+<blockquote>
+  <p>大部分材料比较容易采购，但是仍然有一部分材料比较小众、购买困难。比如控制板、符合条件的步进电机、3D打印零配件等，为了提升您的DIY体验，这些材料在<a href="https://shop426062741.taobao.com/?spm=a21n57.shop_search.0.0.6c62f089N0ywNM">“淘宝欧极星科技”</a>有售。</p>
+</blockquote>
+<h2>关于OGS赤道仪版本历史：</h2>
+<p><strong>OGS赤道仪从诞生至今分为约3个版本：</strong></p>
+<ul>
+  <li>前期Demo版本</li>
+</ul>
+<figure class="image image_resized" style="width:50.66%;"><img src="/ogs赤道仪v/qq20250918-135031.jpg"></figure>
+<ul>
+  <li>1.x版本</li>
+</ul>
+<figure class="image image_resized" style="width:50.65%;"><img src="/ogs赤道仪v/微信图片_20250918135648_45_144.jpg"></figure>
+<ul>
+  <li>2.x版本</li>
+</ul>
+<figure class="image image_resized" style="width:50.58%;"><img src="/ogs赤道仪v/ogsv1.png"></figure>
+<p>目前我们要复刻的是2.x版本，其他版本已不再维护、性能和体验也逊色于2.0版本，新的版本正在开发中。</p>
+<blockquote>
+  <p>2.x版本控制板与早期的控制板不兼容！不要再复刻早期控制板。</p>
+</blockquote>
+<blockquote>
+  <p><strong>如果您不是开发者，那么本Wiki站点的资料就是最全面的</strong></p>
+</blockquote>
+<h1>固件和烧录</h1>
+<p>直接购买OGS官方提供的控制板，您无需进行固件烧录工作。</p>
+<p>如果您需要升级或自行修改固件，请参考以下文章：</p>
+<ul>
+  <li><a href="/OGSBig/maintenance-guide/firmware-flashing">《固件烧录指南》</a></li>
+</ul>
+<h1>物料清单（OGS V2）</h1>
+<blockquote>
+  <p>表格中罗列的配件数量为最低数量，购买时请适当增加冗余。</p>
+</blockquote>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>&nbsp;</td>
+        <td colspan="2">项目</td>
+        <td rowspan="2">用量（每套）</td>
+        <td style="width:200px;" rowspan="2">备注</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>English</td>
+        <td style="width:300px;">中文</td>
+      </tr>
+      <tr>
+        <td rowspan="17">紧固件</td>
+        <td style="width:270px;">M3x40 socket bolt</td>
+        <td style="width:361px;">M3*40 杯头内六角螺丝</td>
+        <td style="text-align:center;width:101px;">4</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M3x6 socket bolt</td>
+        <td style="width:361px;">M3*6 杯头内六角螺丝</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M3x20 socket bolt</td>
+        <td style="width:361px;">M3*20 杯头内六角螺丝</td>
+        <td style="text-align:center;width:101px;">8</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M5x25 socket bolt</td>
+        <td style="width:361px;">M5*25 杯头内六角螺丝</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M5x50 Hex head</td>
+        <td style="width:361px;">M5*50 外六角螺丝</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M5 ptfe washer</td>
+        <td style="width:361px;">M5 PTFE 垫片</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M3x8 socket bolt</td>
+        <td style="width:361px;">M3*8 杯头内六角螺丝</td>
+        <td style="text-align:center;width:101px;">40</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M3x16 socket bolt</td>
+        <td style="width:361px;">M3*16 杯头内六角螺丝</td>
+        <td style="text-align:center;width:101px;">4</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M5x20 Low profile socket bolt</td>
+        <td style="width:361px;">M5*20 平头内六角螺丝</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">¼-20x1/2” UNC Hex head</td>
+        <td style="width:361px;">1/4-20*1/2螺丝美制（用于转接万向头）</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td>对型号实在困惑建议在<a href="https://shop426062741.taobao.com/?spm=a21n57.shop_search.0.0.6c62f089N0ywNM">欧极星淘宝店</a>选购套件包</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">m3 threaded insert</td>
+        <td style="width:361px;">M3 热熔螺母 外径4.5 高6</td>
+        <td style="text-align:center;width:101px;">60</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">m5 threaded insert</td>
+        <td style="width:361px;">M5 热熔螺母 外径7 高9</td>
+        <td style="text-align:center;width:101px;">5</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">3/8-16*12.8*12.7-threaded insert</td>
+        <td style="width:361px;">热熔螺母 3/8-16*12.8*12.7</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>英制五金件</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M3 nut</td>
+        <td style="width:361px;">M3 螺母</td>
+        <td style="text-align:center;width:101px;">3</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M5 nut</td>
+        <td style="width:361px;">M5 螺母</td>
+        <td style="text-align:center;width:101px;">3</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M5 self-tightening nuts</td>
+        <td style="width:361px;">M5 自紧螺母</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">¼-20 UNC to 3/8-20 UNC adapter</td>
+        <td style="width:361px;">1/4转3/8转换螺母</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td rowspan="4">英制五金件</td>
+      </tr>
+      <tr>
+        <td rowspan="12">运动件</td>
+        <td style="width:270px;">AXK 5070 needle bearing</td>
+        <td style="width:361px;">AXK 5070 - 滚针轴承</td>
+        <td style="text-align:center;width:101px;">2</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">AS 5070 Axial bearing washer</td>
+        <td style="width:361px;">AS 5070 薄型轴承垫圈</td>
+        <td style="text-align:center;width:101px;">4</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">KU 5025 plain bearing</td>
+        <td style="width:361px;">KU 5025 - PTFE内衬轴套</td>
+        <td style="text-align:center;width:101px;">1</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">GT2 16 teeth pulley</td>
+        <td style="width:361px;">2GT 16T 传动轮 内径5</td>
+        <td style="text-align:center;width:101px;">3</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">GT2 48 teeth pulley</td>
+        <td style="width:361px;">2GT 48T 传动轮 内径5</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">GT2 20 teeth idler</td>
+        <td style="width:361px;">2GT 20T 从动轮 内径3</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">GT2 120mm belt</td>
+        <td style="width:361px;">2GT 120mm 皮带环</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">GT2 400mm belt</td>
+        <td style="width:361px;">2GT 400mm 皮带环</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">5x50mm shaft</td>
+        <td style="width:361px;">5*50mm 轴</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M5x95mm rod</td>
+        <td style="width:361px;">M5*95螺杆</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;建议使用M5*40螺丝代替！</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M5x135mm rod</td>
+        <td style="width:361px;">M5*135螺杆</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">625 bearing</td>
+        <td style="width:361px;">625轴承</td>
+        <td style="text-align:center;width:101px;">10</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td rowspan="9">辅助件</td>
+        <td style="width:270px;">Round bubble level 12x7mm</td>
+        <td style="width:361px;">气泡水平仪 12*7mm</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">Laser or polar scope</td>
+        <td style="width:361px;">指星笔或极轴镜（绿光）</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">4mm hex key</td>
+        <td style="width:361px;">4mm六角扳手</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">2.5mm hex key</td>
+        <td style="width:361px;">2.5mm六角扳手</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">grease</td>
+        <td style="width:361px;">润滑脂</td>
+        <td style="text-align:center;width:101px;">若干</td>
+        <td>&nbsp;所有齿轮螺丝必须上螺丝胶！！！</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">Screw Glue</td>
+        <td style="width:361px;">螺丝胶</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">2mm hex key</td>
+        <td style="width:361px;">2mm六角扳手</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">Round magnet 10x3mm</td>
+        <td style="width:361px;">10*3 磁铁</td>
+        <td style="text-align:center;width:101px;">4</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">Round magnet 5x5mm</td>
+        <td style="width:361px;">5*5 磁铁</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td rowspan="3">电子件</td>
+        <td style="width:270px;">PCB</td>
+        <td style="width:361px;">主板+驱动散热片</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>专用控制板欧<a href="https://shop426062741.taobao.com/?spm=a21n57.shop_search.0.0.6c62f089N0ywNM">极星淘宝店</a>有售</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">Stepper motor</td>
+        <td style="width:361px;">步进电机 0.9° 1.5A 42*40</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td rowspan="2">同款步进电机<a href="https://shop426062741.taobao.com/?spm=a21n57.shop_search.0.0.6c62f089N0ywNM">欧极星淘宝店</a>有售</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">cable for stepper motor</td>
+        <td style="width:361px;">步进电机电缆 60mm</td>
+        <td style="text-align:center;width:101px;">1</td>
+      </tr>
+      <tr>
+        <td rowspan="2">
+          <p>&nbsp;</p>
+          <p>杂项&nbsp;</p>
+        </td>
+        <td style="width:270px;">3D Printing Material &nbsp;- ABS (/g)</td>
+        <td style="width:361px;">3D打印耗材（ABS）/g</td>
+        <td style="text-align:center;width:101px;">若干</td>
+        <td>建议使用ABS或其他高耐候材料打印</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">3D Printing Material &nbsp;- ABS-CF (/g)</td>
+        <td style="width:361px;">3D打印耗材费（ABS-CF or GF）/g</td>
+        <td style="text-align:center;width:101px;">若干</td>
+        <td>
+          <p>主体承重结构必须使用“XXX-GF”（玻璃纤维）复合材料打印，否则刚性不满足需求</p>
+          <p>不可使用“XXX-CF”材料打印，碳纤维复合材料较软</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h1>组装教程</h1>
+<h2>嵌入热熔螺母</h2>
+<blockquote>
+  <p>注意：由于开源项目版本更新较快，文档中图片细节可能与实物略有不符，举一反三即可。</p>
+</blockquote>
+<p><a href="https://www.bilibili.com/opus/1121247486621515776">点此跳转至《热熔螺母安装》</a></p>
+<p>&nbsp;</p>
+<h2>开始组装</h2>
+<h3>测试主板</h3>
+<p>请先将电机与主板连接并插上电源，并使用手机连接到控制台，通过快速旋转功能检查电机是否正常旋转，只有当电机旋转正常时，再继续进行下一步操作。</p>
+<p>连接WIFI教程参考以下文章：<a href="/replica-guide">《连接手机》</a></p>
+<p>&nbsp;</p>
+<h3>组装视频</h3>
+<blockquote>
+  <p>注意：由于开源项目版本更新较快，视频细节可能与最新版本零件略有不符，举一反三即可。</p>
+</blockquote>
+<p><a href="https://www.bilibili.com/video/BV1BKxfzCEsa">点此跳转至《组装视频》</a></p>
+<p>注意⚠️：</p>
+<ul>
+  <li>新版本减速箱从分体设计修改为一体设计，导致有两颗电机螺丝安装变难，建议使用长一些的球头6角螺丝刀倾斜拧紧螺丝</li>
+  <li>若安装困难，电机固定螺丝可仅安装3颗</li>
+  <li><mark class="marker-yellow">所有齿轮固定螺丝必须打螺丝胶！</mark></li>
+  <li>若光轴难以安装进轴承，可以使用橡胶锤敲进去</li>
+  <li><mark class="marker-yellow">国内版方案在铰链处使用两根M5*40螺丝（易维护）代替国外版本的螺杆</mark></li>
+</ul>
+<figure class="image"><img src="/教程/ishot_2025-10-13_14.16.57.png">
+  <figcaption>这个配件不再使用，也不需要再压螺母</figcaption>
+</figure>
+<figure class="image"><img src="/教程/ishot_2025-10-13_14.21.39.png">
+  <figcaption>铰链处使用螺母固定即可（原方案使用螺杆+上一张图提到的盖子）</figcaption>
+</figure>
+<ul>
+  <li>待补充…</li>
+</ul>
+<h2>效果测试</h2>
+<p>通过在旋转圆盘划线以及进行1小时的追踪检查旋转角度…….. 编写中…</p>
