@@ -1,8 +1,8 @@
 ---
 title: 第一次拍摄
 description: 从安装、纬度与极轴校准、手机连接到第一次曝光的完整入门流程。
-published: false
-date: 2026-08-12T14:51:12.959Z
+published: true
+date: 2026-08-12T15:02:19.734Z
 tags: ogs大赤道仪, 新手指南, 拍摄
 editor: markdown
 dateCreated: 2025-09-18T03:32:04.659Z
