@@ -2,7 +2,7 @@
 title: OGS 大赤道仪供电指南
 description: USB-C 5V供电要求、上电检查与无法启动排查。
 published: true
-date: 2026-08-12T14:50:08.325Z
+date: 2026-08-12T15:02:36.445Z
 tags: ogs大赤道仪, 供电, 故障排查
 editor: markdown
 dateCreated: 2026-08-12T14:50:08.325Z
