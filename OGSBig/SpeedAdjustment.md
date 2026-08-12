@@ -1,8 +1,8 @@
 ---
 title: 欧极星大赤道仪——速度调整、太阳速、地球速、月球速
 description: 欧极星大赤道仪——速度调整、太阳速、地球速、月球速的使用说明与操作要点。
-published: false
-date: 2026-08-12T14:52:51.589Z
+published: true
+date: 2026-08-12T15:01:53.910Z
 tags: ogs大赤道仪, 使用指南
 editor: markdown
 dateCreated: 2026-04-11T14:53:06.767Z
