@@ -2,7 +2,7 @@
 title: OGS 大赤道仪常见问答
 description: 汇总版本、负载、供电、Wi-Fi、跟踪速度和极轴校准常见问题。
 published: true
-date: 2026-08-12T14:50:13.177Z
+date: 2026-08-12T15:02:16.131Z
 tags: ogs大赤道仪, faq, 新手指南
 editor: markdown
 dateCreated: 2026-08-12T14:50:13.177Z
