@@ -1,9 +1,9 @@
 ---
 title: 抖动功能（Dither）说明
-description: 
-published: true
-date: 2026-04-11T15:12:25.324Z
-tags: 
+description: 抖动功能（Dither）说明的使用说明与操作要点。
+published: false
+date: 2026-08-12T14:52:25.843Z
+tags: ogs大赤道仪, 使用指南
 editor: markdown
 dateCreated: 2026-04-11T15:12:19.119Z
 ---
