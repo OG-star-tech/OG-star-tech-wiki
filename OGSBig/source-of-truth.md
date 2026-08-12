@@ -2,7 +2,7 @@
 title: OGS 大赤道仪资料口径与来源
 description: 记录当前统一产品参数、资料来源、冲突处理和文档更新规则。
 published: true
-date: 2026-08-12T14:49:55.915Z
+date: 2026-08-12T15:02:46.361Z
 tags: ogs大赤道仪, 资料来源, 产品参数
 editor: markdown
 dateCreated: 2026-08-12T14:49:55.915Z
