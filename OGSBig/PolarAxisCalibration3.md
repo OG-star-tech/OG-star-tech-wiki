@@ -1,9 +1,9 @@
 ---
 title: 欧极星大赤道仪——手机对极轴
-description: 
-published: true
-date: 2026-04-11T14:43:18.175Z
-tags: 
+description: 欧极星大赤道仪——手机对极轴的使用说明与操作要点。
+published: false
+date: 2026-08-12T14:52:36.934Z
+tags: ogs大赤道仪, 使用指南, 极轴校准
 editor: markdown
 dateCreated: 2026-04-11T14:43:11.856Z
 ---
