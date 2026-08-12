@@ -1,0 +1,400 @@
+<!--
+title: DIY Build Guide
+description: Parts, firmware, assembly, and testing guidance for building the OG Star Tracker.
+published: true
+date: 2026-08-12T17:09:23.454Z
+tags: og star, wiki
+editor: ckeditor
+dateCreated: 2026-08-12T17:09:23.454Z
+-->
+
+<h1>Preliminary preparation</h1>
+<ul>
+  <li>You need to have some hands-on skills to assemble and test mechanical parts</li>
+  <li>You need to have basic software knowledge to complete the flashing job</li>
+  <li>You need to purchase all materials according to the material list below, and the total price is within 500 yuan</li>
+  <li>You need to have a 3D printer or obtain 3D printed parts through contract printing, etc.<ul>
+      <li>Recommended download link (already configured and arranged, but only Tuozhu slicing software can be used):<a href="https://pan.baidu.com/s/1arHrrzlvskoo9K62B3_e4w?pwd=ogst ">https://pan.baidu.com/s/1arHrrzlvskoo9K62B3_e4w?pwd=ogst </a>Extraction code: ogst</li>
+      <li>MakerWorld download address (download the STL file and handle it yourself):<a href="https://makerworld.com/en/models/36715-og-star-tracker-v2">https://makerworld.com/en/models/36715-og-star-tracker-v2</a></li>
+    </ul>
+  </li>
+</ul>
+<blockquote>
+  <p>Note: Some components contain patterns such as scales and indicators, which require multi-color printing or later coloring (not recommended)</p>
+</blockquote>
+<ul>
+  <li>Some handy tools, a spacious table, and a cup of coffee☕️</li>
+</ul>
+<blockquote>
+  <p>DIY operations are dangerous, and some steps may result in injury or disability. OG Star Community is not responsible for any resulting losses.</p>
+</blockquote>
+<blockquote>
+  <p>Equatorial mounts are high-precision equipment, and small assembly errors may lead to large accuracy errors.</p>
+</blockquote>
+<blockquote>
+  <p>This project welcomes enthusiasts to carry out personal reproduction practice, but<mark class="pen-red"><strong>Any form of commercial use is strictly prohibited</strong></mark>. At present, OG Star Community has completed the application and registration protection of intellectual property rights such as patents, software copyrights, and trademarks in China for all digital assets; for any unauthorized commercial infringement, we will seriously pursue liability according to law.</p>
+</blockquote>
+<h1>prefeed</h1>
+<h2>Learn to understand the reproduction guide:</h2>
+<p><strong>If you want to reproduce the OGS equatorial mount, you need to prepare the following types of materials:</strong></p>
+<ul class="todo-list">
+  <li><label class="todo-list__label"><input type="checkbox" disabled="disabled"><span class="todo-list__label__description">Fasteners (screws, nuts, etc.)</span></label></li>
+  <li><label class="todo-list__label"><input type="checkbox" disabled="disabled"><span class="todo-list__label__description">Moving parts (gears, bearings, etc.)</span></label></li>
+  <li><label class="todo-list__label"><input type="checkbox" disabled="disabled"><span class="todo-list__label__description">Electronic parts (stepper motors, control boards, etc.)</span></label></li>
+  <li><label class="todo-list__label"><input type="checkbox" disabled="disabled"><span class="todo-list__label__description">3D printed parts (main structure of the equatorial mount manufactured using 3D printing technology)</span></label></li>
+  <li><label class="todo-list__label"><input type="checkbox" disabled="disabled"><span class="todo-list__label__description">Miscellaneous (other accessories such as glue, wrenches, etc.)</span></label></li>
+  <li><label class="todo-list__label"><input type="checkbox" disabled="disabled"><span class="todo-list__label__description">Firmware, flashing tool (requires flashing firmware and flashing program)</span></label></li>
+</ul>
+<p>The detailed list of these materials is in the table below, you just need to purchase according to the list.</p>
+<blockquote>
+  <p>Most materials are relatively easy to purchase, but there are still some materials that are relatively niche and difficult to purchase. For example, control boards, qualified stepper motors, 3D printing spare parts, etc. In order to enhance your DIY experience, these materials are available in<a href="https://shop426062741.taobao.com/?spm=a21n57.shop_search.0.0.6c62f089N0ywNM">"Taobao OG Star Technology"</a>Available.</p>
+</blockquote>
+<h2>About OGS equatorial mount version history:</h2>
+<p><strong>The OGS equatorial mount has been divided into about 3 versions since its birth:</strong></p>
+<ul>
+  <li>Early Demo version</li>
+</ul>
+<figure class="image image_resized" style="width:50.66%;"><img src="/ogs赤道仪v/qq20250918-135031.jpg"></figure>
+<ul>
+  <li>1.x version</li>
+</ul>
+<figure class="image image_resized" style="width:50.65%;"><img src="/ogs赤道仪v/微信图片_20250918135648_45_144.jpg"></figure>
+<ul>
+  <li>2.x version</li>
+</ul>
+<figure class="image image_resized" style="width:50.58%;"><img src="/ogs赤道仪v/ogsv1.png"></figure>
+<p>At present, we are replicating version 2.x. Other versions are no longer maintained, and their performance and experience are inferior to version 2.0. New versions are under development.</p>
+<blockquote>
+  <p>Version 2.x control boards are incompatible with earlier control boards! Don't copy earlier control boards again.</p>
+</blockquote>
+<blockquote>
+  <p><strong>If you are not a developer, this wiki site has the most comprehensive information</strong></p>
+</blockquote>
+<h1>Firmware and flashing</h1>
+<p>Buy the control board officially provided by OGS directly and you don't need to do firmware flashing work.</p>
+<p>If you need to upgrade or modify the firmware yourself, please refer to the following articles:</p>
+<ul>
+  <li><a href="/en/OGSBig/maintenance-guide/firmware-flashing">"firmware flashing Guide"</a></li>
+</ul>
+<h1>Bill of Materials (OGS V2)</h1>
+<blockquote>
+  <p>The quantity of accessories listed in the table is the minimum quantity. Please add appropriate redundancy when purchasing.</p>
+</blockquote>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>&nbsp;</td>
+        <td colspan="2">Project</td>
+        <td rowspan="2">Dosage (per set)</td>
+        <td style="width:200px;" rowspan="2">Remarks</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>English</td>
+        <td style="width:300px;">Chinese</td>
+      </tr>
+      <tr>
+        <td rowspan="17">fasteners</td>
+        <td style="width:270px;">M3x40 socket bolt</td>
+        <td style="width:361px;">M3*40 cup head hexagon socket screws</td>
+        <td style="text-align:center;width:101px;">4</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M3x6 socket bolt</td>
+        <td style="width:361px;">M3*6 cup head hexagon socket screws</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M3x20 socket bolt</td>
+        <td style="width:361px;">M3*20 cup head hexagon socket screws</td>
+        <td style="text-align:center;width:101px;">8</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M5x25 socket bolt</td>
+        <td style="width:361px;">M5*25 cup head hexagon socket screws</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M5x50 Hex head</td>
+        <td style="width:361px;">M5*50 external hexagonal screws</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M5 ptfe washer</td>
+        <td style="width:361px;">M5 PTFE gasket</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M3x8 socket bolt</td>
+        <td style="width:361px;">M3*8 cup head hexagon socket screws</td>
+        <td style="text-align:center;width:101px;">40</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M3x16 socket bolt</td>
+        <td style="width:361px;">M3*16 cup head hexagon socket screws</td>
+        <td style="text-align:center;width:101px;">4</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M5x20 Low profile socket bolt</td>
+        <td style="width:361px;">M5*20 flat head hexagon socket screws</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">¼-20x1/2” UNC Hex head</td>
+        <td style="width:361px;">1/4-20*1/2 screws made in the United States (used to transfer the universal head)</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td>If you are really confused about the model number, please refer to<a href="https://shop426062741.taobao.com/?spm=a21n57.shop_search.0.0.6c62f089N0ywNM">OG Star Taobao store</a>Optional kit packages</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">m3 threaded insert</td>
+        <td style="width:361px;">M3 hot melt nut outer diameter 4.5 height 6</td>
+        <td style="text-align:center;width:101px;">60</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">m5 threaded insert</td>
+        <td style="width:361px;">M5 hot melt nut outer diameter 7 height 9</td>
+        <td style="text-align:center;width:101px;">5</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">3/8-16*12.8*12.7-threaded insert</td>
+        <td style="width:361px;">Hot melt nut 3/8-16*12.8*12.7</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>British hardware</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M3 nut</td>
+        <td style="width:361px;">M3 nut</td>
+        <td style="text-align:center;width:101px;">3</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M5 nut</td>
+        <td style="width:361px;">M5 nut</td>
+        <td style="text-align:center;width:101px;">3</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M5 self-tightening nuts</td>
+        <td style="width:361px;">M5 self tightening nut</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">¼-20 UNC to 3/8-20 UNC adapter</td>
+        <td style="width:361px;">1/4 to 3/8 conversion nut</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td rowspan="4">British hardware</td>
+      </tr>
+      <tr>
+        <td rowspan="12">Moving parts</td>
+        <td style="width:270px;">AXK 5070 needle bearing</td>
+        <td style="width:361px;">AXK 5070 - Needle roller bearings</td>
+        <td style="text-align:center;width:101px;">2</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">AS 5070 Axial bearing washer</td>
+        <td style="width:361px;">AS 5070 Low Profile Bearing Washers</td>
+        <td style="text-align:center;width:101px;">4</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">KU 5025 plain bearing</td>
+        <td style="width:361px;">KU 5025 - PTFE Lined Bushing</td>
+        <td style="text-align:center;width:101px;">1</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">GT2 16 teeth pulley</td>
+        <td style="width:361px;">2GT 16T transmission wheel inner diameter 5</td>
+        <td style="text-align:center;width:101px;">3</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">GT2 48 teeth pulley</td>
+        <td style="width:361px;">2GT 48T transmission wheel inner diameter 5</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">GT2 20 teeth idler</td>
+        <td style="width:361px;">2GT 20T driven wheel inner diameter 3</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">GT2 120mm belt</td>
+        <td style="width:361px;">2GT 120mm belt loop</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">GT2 400mm belt</td>
+        <td style="width:361px;">2GT 400mm belt loop</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">5x50mm shaft</td>
+        <td style="width:361px;">5*50mm shaft</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M5x95mm rod</td>
+        <td style="width:361px;">M5*95 screw</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp; recommends using M5*40 screws instead!</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">M5x135mm rod</td>
+        <td style="width:361px;">M5*135 screw</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">625 bearing</td>
+        <td style="width:361px;">625 bearing</td>
+        <td style="text-align:center;width:101px;">10</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td rowspan="9">Auxiliary parts</td>
+        <td style="width:270px;">Round bubble level 12x7mm</td>
+        <td style="width:361px;">Bubble level 12*7mm</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">Laser or polar scope</td>
+        <td style="width:361px;">Star pointing pen or polar scope (green light)</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">4mm hex key</td>
+        <td style="width:361px;">4mm hex wrench</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">2.5mm hex key</td>
+        <td style="width:361px;">2.5mm hex wrench</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">grease</td>
+        <td style="width:361px;">Grease</td>
+        <td style="text-align:center;width:101px;">several</td>
+        <td>&nbsp;All gear screws must be coated with screw glue! ! !</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">Screw Glue</td>
+        <td style="width:361px;">Screw glue</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">2mm hex key</td>
+        <td style="width:361px;">2mm hex wrench</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">Round magnet 10x3mm</td>
+        <td style="width:361px;">10*3 magnet</td>
+        <td style="text-align:center;width:101px;">4</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">Round magnet 5x5mm</td>
+        <td style="width:361px;">5*5 magnet</td>
+        <td style="text-align:center;width:101px;">2</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Electronic parts</td>
+        <td style="width:270px;">PCB</td>
+        <td style="width:361px;">Motherboard + driver heat sink</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td>Dedicated control board<a href="https://shop426062741.taobao.com/?spm=a21n57.shop_search.0.0.6c62f089N0ywNM">Polestar Taobao store</a>Available</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">Stepper motor</td>
+        <td style="width:361px;">Stepper motor 0.9° 1.5A 42*40</td>
+        <td style="text-align:center;width:101px;">1</td>
+        <td rowspan="2">Same style stepper motor<a href="https://shop426062741.taobao.com/?spm=a21n57.shop_search.0.0.6c62f089N0ywNM">OG Star Taobao store</a>Available</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">cable for stepper motor</td>
+        <td style="width:361px;">Stepper motor cable 60mm</td>
+        <td style="text-align:center;width:101px;">1</td>
+      </tr>
+      <tr>
+        <td rowspan="2">
+          <p>&nbsp;</p>
+          <p>Miscellaneous&nbsp;</p>
+        </td>
+        <td style="width:270px;">3D Printing Material &nbsp;- ABS (/g)</td>
+        <td style="width:361px;">3D printing consumables (ABS)/g</td>
+        <td style="text-align:center;width:101px;">several</td>
+        <td>It is recommended to print with ABS or other highly weather-resistant materials</td>
+      </tr>
+      <tr>
+        <td style="width:270px;">3D Printing Material &nbsp;- ABS-CF (/g)</td>
+        <td style="width:361px;">3D printing consumables fee (ABS-CF or GF)/g</td>
+        <td style="text-align:center;width:101px;">several</td>
+        <td>
+          <p>The main load-bearing structure must be printed using "XXX-GF" (glass fiber) composite material, otherwise the rigidity will not meet the requirements.</p>
+          <p>"XXX-CF" materials cannot be used for printing, carbon fiber composite materials are soft</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<h1>Assembly tutorial</h1>
+<h2>Embed hot melt nut</h2>
+<blockquote>
+  <p>Note: Due to the rapid update of open source project versions, the details of the pictures in the document may be slightly different from the actual objects. Just draw inferences from one example.</p>
+</blockquote>
+<p><a href="https://www.bilibili.com/opus/1121247486621515776">Click here to jump to "Hot Melt Nut Installation"</a></p>
+<p>&nbsp;</p>
+<h2>Start assembling</h2>
+<h3>Test motherboard</h3>
+<p>Please connect the motor to the motherboard and plug in the power first, and use your mobile phone to connect to the console. Use the quick rotation function to check whether the motor rotates normally. Only when the motor rotates normally, proceed to the next step.</p>
+<p>For tutorials on connecting to WIFI, refer to the following articles:<a href="/en/replica-guide">"Connect Mobile Phone"</a></p>
+<p>&nbsp;</p>
+<h3>Assembly video</h3>
+<blockquote>
+  <p>Note: Since the version of the open source project is updated quickly, the video details may be slightly inconsistent with the latest version of the parts. Just draw inferences from one example.</p>
+</blockquote>
+<p><a href="https://www.bilibili.com/video/BV1BKxfzCEsa">Click here to jump to "Assembly Video"</a></p>
+<p>NOTE⚠️:</p>
+<ul>
+  <li>The new version of the reduction gearbox has been modified from a split design to an integrated design, which makes it difficult to install two motor screws. It is recommended to use a longer ball-head 6-angle screwdriver to tighten the screws at an angle.</li>
+  <li>If installation is difficult, only 3 motor fixing screws can be installed</li>
+  <li><mark class="marker-yellow">All gear fixing screws must be filled with screw glue!</mark></li>
+  <li>If it is difficult to install the optical shaft into the bearing, you can use a rubber hammer to knock it in.</li>
+  <li><mark class="marker-yellow">The domestic version uses two M5*40 screws (easy to maintain) at the hinge instead of the screws of the foreign version.</mark></li>
+</ul>
+<figure class="image"><img src="/教程/ishot_2025-10-13_14.16.57.png">
+  <figcaption>This accessory is no longer used, and there is no need to press the nut again.</figcaption>
+</figure>
+<figure class="image"><img src="/教程/ishot_2025-10-13_14.21.39.png">
+  <figcaption>Just use nuts to fix the hinge (the original plan uses screws + the cover mentioned in the previous picture)</figcaption>
+</figure>
+<ul>
+  <li>To be added…</li>
+</ul>
+<h2>Effect test</h2>
+<p>Check the angle of rotation by marking a line on the rotating disc and tracking it for 1 hour... Writing in progress...</p>
