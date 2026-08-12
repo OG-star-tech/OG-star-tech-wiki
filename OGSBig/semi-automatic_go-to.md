@@ -1,9 +1,9 @@
 ---
 title: OGSTv2手动寻星（GO-TO）
-description: 
-published: true
-date: 2026-04-11T13:54:28.071Z
-tags: 
+description: OGSTv2手动寻星（GO-TO）的使用说明与操作要点。
+published: false
+date: 2026-08-12T14:53:26.015Z
+tags: ogs大赤道仪, 使用指南
 editor: markdown
 dateCreated: 2026-04-11T13:54:21.667Z
 ---
