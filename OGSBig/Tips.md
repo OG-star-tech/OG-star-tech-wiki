@@ -1,9 +1,9 @@
 ---
 title: 不同焦距摄影的设备配置建议
-description: 
-published: true
-date: 2026-04-11T14:58:07.747Z
-tags: 
+description: 不同焦距摄影的设备配置建议的使用说明与操作要点。
+published: false
+date: 2026-08-12T14:52:55.359Z
+tags: ogs大赤道仪, 使用指南
 editor: markdown
 dateCreated: 2026-04-11T14:58:00.985Z
 ---
