@@ -1,9 +1,9 @@
 ---
 title: 欧极星大赤道仪——极轴校准（激光）
-description: 
-published: true
-date: 2026-04-11T14:39:14.017Z
-tags: 
+description: 欧极星大赤道仪——极轴校准（激光）的使用说明与操作要点。
+published: false
+date: 2026-08-12T14:52:44.147Z
+tags: ogs大赤道仪, 使用指南, 极轴校准
 editor: markdown
 dateCreated: 2026-04-11T14:35:05.978Z
 ---
