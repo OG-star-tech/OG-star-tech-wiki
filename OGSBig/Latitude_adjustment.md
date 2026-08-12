@@ -1,8 +1,8 @@
 ---
 title: OGS 大赤道仪纬度调节
 description: 选择0°–25°或25°–90°弧板，以及顶部和底部旋钮孔位。
-published: false
-date: 2026-08-12T14:51:16.679Z
+published: true
+date: 2026-08-12T15:01:29.861Z
 tags: ogs大赤道仪, 纬度, 安装
 editor: markdown
 dateCreated: 2026-04-11T14:26:48.350Z
