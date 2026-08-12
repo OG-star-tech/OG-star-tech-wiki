@@ -1,14 +1,14 @@
 ---
-title: OGS 大赤道仪常见问答
+title: 欧极星赤道仪常见问答
 description: 汇总版本、负载、供电、Wi-Fi、跟踪速度和极轴校准常见问题。
 published: true
-date: 2026-08-12T15:02:16.131Z
-tags: ogs大赤道仪, faq, 新手指南
+date: 2026-08-12T16:05:17.557Z
+tags: faq, 新手指南, 欧极星赤道仪
 editor: markdown
 dateCreated: 2026-08-12T14:50:13.177Z
 ---
 
-# OGS 大赤道仪常见问答
+# 欧极星赤道仪常见问答
 
 ## 国内版和海外版参数是否不同？
 
