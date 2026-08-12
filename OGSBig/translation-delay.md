@@ -1,9 +1,9 @@
 ---
 title: 平移延时模式（Daytime Lapse Pan）说明
-description: 
-published: true
-date: 2026-04-11T15:16:04.268Z
-tags: 
+description: 平移延时模式（Daytime Lapse Pan）说明的使用说明与操作要点。
+published: false
+date: 2026-08-12T14:53:29.725Z
+tags: ogs大赤道仪, 使用指南
 editor: markdown
 dateCreated: 2026-04-11T15:15:57.866Z
 ---
