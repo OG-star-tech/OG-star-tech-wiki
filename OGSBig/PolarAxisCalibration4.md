@@ -1,8 +1,8 @@
 ---
 title: 漂移法对极轴说明（最高精度方法）
 description: 漂移法对极轴说明（最高精度方法）的使用说明与操作要点。
-published: false
-date: 2026-08-12T14:52:40.539Z
+published: true
+date: 2026-08-12T15:01:43.509Z
 tags: ogs大赤道仪, 使用指南, 极轴校准
 editor: markdown
 dateCreated: 2026-04-11T14:44:43.821Z
