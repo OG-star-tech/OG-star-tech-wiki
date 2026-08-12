@@ -1,9 +1,9 @@
 ---
 title: 安装云台和三脚架
-description: 
-published: true
-date: 2026-04-11T14:19:12.210Z
-tags: 
+description: 安装云台和三脚架的使用说明与操作要点。
+published: false
+date: 2026-08-12T14:52:29.619Z
+tags: ogs大赤道仪, 使用指南
 editor: markdown
 dateCreated: 2026-04-11T14:08:42.233Z
 ---
