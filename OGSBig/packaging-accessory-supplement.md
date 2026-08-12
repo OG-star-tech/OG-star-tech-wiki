@@ -1,8 +1,8 @@
 ---
 title: 包装内配件的补充说明
 description: 包装内配件的补充说明的使用说明与操作要点。
-published: false
-date: 2026-08-12T14:53:22.457Z
+published: true
+date: 2026-08-12T15:02:33.100Z
 tags: ogs大赤道仪, 使用指南
 editor: markdown
 dateCreated: 2025-09-13T14:22:50.900Z
