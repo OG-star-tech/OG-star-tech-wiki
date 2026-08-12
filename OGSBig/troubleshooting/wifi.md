@@ -2,8 +2,8 @@
 title: Wi-Fi 无法连接或控制页面打不开
 description: 排查赤道仪Wi-Fi连接和tracker.local控制页面访问问题。
 published: true
-date: 2026-08-12T15:03:05.187Z
-tags: ogs大赤道仪, 故障排查, wi-fi
+date: 2026-08-12T16:08:07.779Z
+tags: 故障排查, wi-fi, 欧极星赤道仪
 editor: markdown
 dateCreated: 2026-08-12T14:50:18.069Z
 ---
