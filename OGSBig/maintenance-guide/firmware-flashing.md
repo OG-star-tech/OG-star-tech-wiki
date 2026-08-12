@@ -1,8 +1,8 @@
 ---
 title: 固件烧录指南
 description: 固件烧录指南的使用说明与操作要点。
-published: false
-date: 2026-08-12T14:53:06.250Z
+published: true
+date: 2026-08-12T15:02:29.700Z
 tags: ogs大赤道仪, 维护, 固件
 editor: markdown
 dateCreated: 2025-09-18T06:09:37.822Z
