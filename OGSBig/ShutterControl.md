@@ -1,9 +1,9 @@
 ---
 title: 间隔拍摄功能（Intervalometer）说明
-description: 
-published: true
-date: 2026-04-11T15:09:23.020Z
-tags: 
+description: 间隔拍摄功能（Intervalometer）说明的使用说明与操作要点。
+published: false
+date: 2026-08-12T14:52:47.766Z
+tags: ogs大赤道仪, 使用指南
 editor: markdown
 dateCreated: 2026-04-11T15:09:16.252Z
 ---
