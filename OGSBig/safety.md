@@ -1,9 +1,9 @@
 ---
-title: OGS 大赤道仪安全须知
+title: 欧极星赤道仪安全须知
 description: 激光、太阳观测、机械安装与5V供电安全要求。
 published: true
-date: 2026-08-12T15:02:39.613Z
-tags: ogs大赤道仪, 安全, 激光
+date: 2026-08-12T16:05:11.066Z
+tags: 安全, 激光, 欧极星赤道仪
 editor: markdown
 dateCreated: 2026-08-12T14:50:02.939Z
 ---
