@@ -2,8 +2,8 @@
 title: Installing a Ball Head and Tripod
 description: How to install a ball head and choose a stable tripod for the OG Star Tracker.
 published: true
-date: 2026-08-12T17:06:58.429Z
-tags: og star tracker, user guide
+date: 2026-08-13T06:52:47.740Z
+tags: og star tracker, user guide, installation
 editor: markdown
 dateCreated: 2026-08-12T17:06:58.429Z
 ---
