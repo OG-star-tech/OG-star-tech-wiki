@@ -2,8 +2,8 @@
 title: Cannot Connect to Wi-Fi or Open the Control Page
 description: Troubleshoot tracker Wi-Fi and tracker.local access.
 published: true
-date: 2026-08-12T17:08:38.428Z
-tags: wi-fi, og star tracker, troubleshooting
+date: 2026-08-13T06:54:05.708Z
+tags: og star tracker, troubleshooting, connectivity
 editor: markdown
 dateCreated: 2026-08-12T17:08:38.428Z
 ---
