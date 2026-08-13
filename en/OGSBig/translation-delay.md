@@ -2,8 +2,8 @@
 title: Daytime Lapse Pan Mode
 description: How to configure and use Daytime Lapse Pan mode.
 published: true
-date: 2026-08-12T17:08:28.845Z
-tags: og star tracker, user guide
+date: 2026-08-13T06:53:48.970Z
+tags: og star tracker, user guide, photography
 editor: markdown
 dateCreated: 2026-08-12T17:08:28.845Z
 ---
