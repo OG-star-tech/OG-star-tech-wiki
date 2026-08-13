@@ -2,8 +2,8 @@
 title: Intervalometer
 description: How to configure long exposures, time-lapse imaging, and intervalometer parameters.
 published: true
-date: 2026-08-12T17:07:22.260Z
-tags: og star tracker, user guide
+date: 2026-08-13T06:52:54.674Z
+tags: og star tracker, user guide, photography
 editor: markdown
 dateCreated: 2026-08-12T17:07:22.260Z
 ---
