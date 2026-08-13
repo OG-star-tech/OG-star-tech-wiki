@@ -2,8 +2,8 @@
 title: 开发者指南
 description: OG Star 开发资料入口。
 published: true
-date: 2026-08-12T15:03:17.690Z
-tags: og star, wiki
+date: 2026-08-13T06:54:27.195Z
+tags: og star, 开发者, 开源
 editor: markdown
 dateCreated: 2025-09-22T05:03:53.847Z
 ---
