@@ -2,8 +2,8 @@
 title: 星点拉线、模糊或跟踪方向异常
 description: 按跟踪方向、极轴、机械稳定性和拍摄参数排查星点问题。
 published: true
-date: 2026-08-13T06:53:59.172Z
-tags: 故障排查, 欧极星赤道仪, 跟踪
+date: 2026-08-13T06:58:24.818Z
+tags: 故障排查, 欧极星赤道仪
 editor: markdown
 dateCreated: 2026-08-12T14:50:22.928Z
 ---
