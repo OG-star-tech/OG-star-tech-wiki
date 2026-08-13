@@ -2,8 +2,8 @@
 title: Star Trails, Blurred Stars, or Incorrect Tracking Direction
 description: Troubleshoot tracking direction, polar alignment, mechanical stability, and exposure settings.
 published: true
-date: 2026-08-13T06:53:55.937Z
-tags: og star tracker, troubleshooting, tracking
+date: 2026-08-13T06:58:21.538Z
+tags: og star tracker, troubleshooting
 editor: markdown
 dateCreated: 2026-08-12T17:08:33.706Z
 ---
