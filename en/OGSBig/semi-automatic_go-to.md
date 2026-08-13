@@ -2,8 +2,8 @@
 title: OGSTv2 Manual Go-To
 description: Installation and operation of the semi-automatic Go-To extension.
 published: true
-date: 2026-08-13T06:53:45.475Z
-tags: og star tracker, user guide, go-to
+date: 2026-08-13T06:58:11.336Z
+tags: og star tracker, user guide
 editor: markdown
 dateCreated: 2026-08-12T17:08:19.223Z
 ---
