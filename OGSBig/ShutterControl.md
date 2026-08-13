@@ -2,8 +2,8 @@
 title: 间隔拍摄功能（Intervalometer）说明
 description: 间隔拍摄功能（Intervalometer）说明的使用说明与操作要点。
 published: true
-date: 2026-08-12T16:07:26.492Z
-tags: 使用指南, 欧极星赤道仪
+date: 2026-08-13T06:52:51.131Z
+tags: 拍摄, 使用指南, 欧极星赤道仪
 editor: markdown
 dateCreated: 2026-04-11T15:09:16.252Z
 ---
