@@ -2,8 +2,8 @@
 title: Product Information Sources and Documentation Rules
 description: Current product specifications, source priorities, conflict handling, and documentation rules.
 published: true
-date: 2026-08-12T17:08:23.966Z
-tags: og star tracker, specifications, sources
+date: 2026-08-13T06:58:18.185Z
+tags: documentation, og star tracker, specifications
 editor: markdown
 dateCreated: 2026-08-12T17:08:23.966Z
 ---
