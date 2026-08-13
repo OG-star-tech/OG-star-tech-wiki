@@ -2,8 +2,8 @@
 title: OG Star Tracker FAQ
 description: Frequently asked questions about versions, payload, power, Wi-Fi, tracking rates, and polar alignment.
 published: true
-date: 2026-08-12T17:07:41.443Z
-tags: faq, getting started, og star tracker
+date: 2026-08-13T06:57:30.502Z
+tags: getting started, og star tracker, troubleshooting
 editor: markdown
 dateCreated: 2026-08-12T17:07:41.443Z
 ---
