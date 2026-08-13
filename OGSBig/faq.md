@@ -2,8 +2,8 @@
 title: 欧极星赤道仪常见问答
 description: 汇总版本、负载、供电、Wi-Fi、跟踪速度和极轴校准常见问题。
 published: true
-date: 2026-08-13T06:53:18.586Z
-tags: 新手指南, 欧极星赤道仪, 常见问答
+date: 2026-08-13T06:57:27.250Z
+tags: 故障排查, 新手指南, 欧极星赤道仪
 editor: markdown
 dateCreated: 2026-08-12T14:50:13.177Z
 ---
