@@ -2,8 +2,8 @@
 title: Equipment Recommendations by Focal Length
 description: Recommended equipment, balancing, and polar-alignment methods for different focal lengths.
 published: true
-date: 2026-08-12T17:07:32.029Z
-tags: og star tracker, user guide
+date: 2026-08-13T06:53:08.804Z
+tags: og star tracker, user guide, equipment setup
 editor: markdown
 dateCreated: 2026-08-12T17:07:32.029Z
 ---
