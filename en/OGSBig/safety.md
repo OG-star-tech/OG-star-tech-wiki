@@ -2,8 +2,8 @@
 title: OG Star Tracker Safety Guide
 description: Laser, solar-observation, mechanical-installation, and 5 V power safety requirements.
 published: true
-date: 2026-08-12T17:08:14.626Z
-tags: og star tracker, safety, laser
+date: 2026-08-13T06:58:01.126Z
+tags: og star tracker, user guide
 editor: markdown
 dateCreated: 2026-08-12T17:08:14.626Z
 ---
