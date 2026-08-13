@@ -2,8 +2,8 @@
 title: OG Star Tracker Power Guide
 description: USB-C 5 V power requirements, startup checks, and power troubleshooting.
 published: true
-date: 2026-08-12T17:08:09.725Z
-tags: og star tracker, power, troubleshooting
+date: 2026-08-13T06:57:57.749Z
+tags: og star tracker, user guide, troubleshooting
 editor: markdown
 dateCreated: 2026-08-12T17:08:09.725Z
 ---
