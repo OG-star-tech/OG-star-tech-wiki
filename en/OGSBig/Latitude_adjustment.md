@@ -2,8 +2,8 @@
 title: Adjusting Latitude
 description: How to select the 0°–25° or 25°–90° latitude arc and choose the correct adjustment holes.
 published: true
-date: 2026-08-12T17:06:53.648Z
-tags: og star tracker, latitude, installation
+date: 2026-08-13T06:52:40.710Z
+tags: og star tracker, user guide, installation
 editor: markdown
 dateCreated: 2026-08-12T17:06:53.648Z
 ---
