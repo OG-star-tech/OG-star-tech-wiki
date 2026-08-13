@@ -2,8 +2,8 @@
 title: 欧极星赤道仪纬度调节
 description: 选择0°–25°或25°–90°弧板，以及顶部和底部旋钮孔位。
 published: true
-date: 2026-08-12T16:05:03.999Z
-tags: 纬度, 安装, 欧极星赤道仪
+date: 2026-08-13T06:52:36.357Z
+tags: 安装, 使用指南, 欧极星赤道仪
 editor: markdown
 dateCreated: 2026-04-11T14:26:48.350Z
 ---
