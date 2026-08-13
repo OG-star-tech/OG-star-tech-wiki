@@ -2,8 +2,8 @@
 title: How to Fold the OG Star Tracker
 description: How to configure and fold the tracker for standard and travel use.
 published: true
-date: 2026-08-13T06:53:25.385Z
-tags: og star tracker, user guide, transport
+date: 2026-08-13T06:57:33.818Z
+tags: og star tracker, user guide
 editor: markdown
 dateCreated: 2026-08-12T17:07:50.950Z
 ---
