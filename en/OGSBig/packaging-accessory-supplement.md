@@ -2,8 +2,8 @@
 title: Package Contents and Accessories
 description: Package contents, required accessories, and optional polar-alignment equipment.
 published: true
-date: 2026-08-13T06:53:35.362Z
-tags: getting started, og star tracker, package contents
+date: 2026-08-13T06:57:47.600Z
+tags: getting started, og star tracker
 editor: markdown
 dateCreated: 2026-08-12T17:08:05.144Z
 ---
