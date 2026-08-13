@@ -2,8 +2,8 @@
 title: 不同焦距摄影的设备配置建议
 description: 不同焦距摄影的设备配置建议的使用说明与操作要点。
 published: true
-date: 2026-08-12T16:07:33.634Z
-tags: 使用指南, 欧极星赤道仪
+date: 2026-08-13T06:53:05.242Z
+tags: 使用指南, 欧极星赤道仪, 器材搭配
 editor: markdown
 dateCreated: 2026-04-11T14:58:00.985Z
 ---
