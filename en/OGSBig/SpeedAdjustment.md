@@ -2,8 +2,8 @@
 title: Tracking Speed: Solar, Sidereal, and Lunar Rates
 description: How to select solar, sidereal, and lunar tracking rates.
 published: true
-date: 2026-08-13T06:53:01.762Z
-tags: og star tracker, user guide, tracking
+date: 2026-08-13T06:57:13.140Z
+tags: og star tracker, user guide
 editor: markdown
 dateCreated: 2026-08-12T17:07:27.235Z
 ---
