@@ -2,8 +2,8 @@
 title: Firmware Flashing Guide
 description: How to download, configure, flash, and verify OG Star Tracker firmware.
 published: true
-date: 2026-08-12T17:08:00.315Z
-tags: og star tracker, maintenance, firmware
+date: 2026-08-13T06:57:40.619Z
+tags: og star tracker, maintenance
 editor: markdown
 dateCreated: 2026-08-12T17:08:00.315Z
 ---
