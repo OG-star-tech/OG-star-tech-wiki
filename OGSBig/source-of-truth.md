@@ -2,8 +2,8 @@
 title: 欧极星赤道仪资料口径与来源
 description: 记录当前统一产品参数、资料来源、冲突处理和文档更新规则。
 published: true
-date: 2026-08-12T16:05:07.581Z
-tags: 资料来源, 产品参数, 欧极星赤道仪
+date: 2026-08-13T06:58:14.771Z
+tags: 产品参数, 文档导航, 欧极星赤道仪
 editor: markdown
 dateCreated: 2026-08-12T14:49:55.915Z
 ---
