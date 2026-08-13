@@ -2,8 +2,8 @@
 title: Dither Function
 description: How to use dithering to reduce fixed-pattern and walking noise between exposures.
 published: true
-date: 2026-08-12T17:06:48.608Z
-tags: og star tracker, user guide
+date: 2026-08-13T06:52:32.752Z
+tags: og star tracker, user guide, photography
 editor: markdown
 dateCreated: 2026-08-12T17:06:48.608Z
 ---
