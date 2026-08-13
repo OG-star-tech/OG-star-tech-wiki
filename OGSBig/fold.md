@@ -2,8 +2,8 @@
 title: 欧极星赤道仪如何折叠
 description: 欧极星赤道仪如何折叠的使用说明与操作要点。
 published: true
-date: 2026-08-12T16:07:43.824Z
-tags: 使用指南, 欧极星赤道仪
+date: 2026-08-13T06:53:22.007Z
+tags: 使用指南, 欧极星赤道仪, 收纳运输
 editor: markdown
 dateCreated: 2026-04-11T14:00:41.145Z
 ---
